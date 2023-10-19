@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="search.css">
+    <script src="searchproducts.js" async></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div id="search-container">
+        <input type="search" id="searchBar" placeholder="Search products... " />
+        <button id="search-button">Search</button>
+    </div>
+    <div class="categories">
+        <button class="category-button" onclick="filterProducts('all')">All</button>
+        <button class="category-button">Category 2</button>
+        <button class="category-button">Category 3</button>
+          <!-- Add more buttons for categories -->
+    </div>
+    <div id="products"></div>
+  </div>
+</body>
+</html>
